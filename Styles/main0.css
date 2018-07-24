@@ -1,0 +1,518 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+
+body {
+  line-height: 1;
+  font-family: "Lato", sans-serif
+}
+
+ol, ul {
+  list-style: none
+}
+
+blockquote, q {
+  quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+.nav-contact-account .nav-item {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px
+}
+
+.nav-contact-account .nav-item span {
+  color: #595959;
+  vertical-align: bottom;
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 1px
+}
+
+.nav-contact-account .nav-item img {
+  vertical-align: top;
+  margin-top: 6%;
+  margin-left: .7%;
+  margin-bottom: 6px;
+  position: relative
+}
+
+.nav-contact-account-negMargin {
+  margin-right: -129px
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 14px
+}
+
+#nav-toggle-links {
+  padding-right: 15px
+}
+
+#nav-toggle-links li a {
+  padding-bottom: 10px;
+  color: #323232
+}
+
+#header {
+  margin-bottom: 0;
+  background-color: #fff
+}
+
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 0
+}
+
+#quick-search {
+  background-color: #aaa
+}
+
+#quick-search .container .row {
+  padding-top: 10px;
+  padding-bottom: 11px
+}
+
+.searchbar-input-md input {
+  height: 41px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #323232
+}
+
+.searchbar-btn-md .btn {
+  width: 100%;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  padding: 7px;
+  background-color: #00767a;
+  color: #fff
+}
+
+.searchbar-input-xs {
+  padding-right: 0;
+  margin-right: -15px
+}
+
+.searchbar-input-xs .form-control {
+  line-height: 3;
+  height: 40px;
+  border: 0;
+  border-radius: 0
+}
+
+.searchbar-btn-xs {
+  padding-left: 0;
+  padding-right: 0
+}
+
+.searchbar-btn-xs .btn {
+  height: 40px;
+  width: 100%;
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #00767a
+}
+
+.link-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between
+}
+
+.link-list .searchbar-link {
+  flex-grow: 1;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  letter-spacing: .5px
+}
+
+.link-list .searchbar-link a {
+  text-decoration-color: #d9d9d9;
+  font-weight: 600
+}
+
+#agent-profile {
+  background-color: #eee
+}
+
+#agent-profile .row #agent-info {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+#agent-profile .row #agent-links {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.agent-info-wrapper, .agent-links-wrapper {
+  width: 100%
+}
+
+.agent-info-wrapper .btn, .agent-info-wrapper h1 {
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  color: #323232;
+  letter-spacing: 2px
+}
+
+.agent-info-wrapper h4 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #aaa;
+  margin-top: 20px;
+  letter-spacing: 1px
+}
+
+.agent-info-wrapper .btn {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 7px;
+  margin-top: 25px;
+  background-color: #00767a;
+  color: #fff
+}
+
+.agent-info-wrapper .social-icons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between
+}
+
+.agent-links-wrapper .agent-link {
+  padding-bottom: 20px
+}
+
+.agent-links-wrapper .agent-link img {
+  margin-right: 20px;
+  width: 25px
+}
+
+.agent-links-wrapper .agent-link span {
+  color: #00767a;
+  font-size: 16px;
+  vertical-align: 5px
+}
+
+.agent-links-wrapper .agent-link .phone-number {
+  color: #595959
+}
+
+#tabs, #tabs .dropdown-toggle {
+  font-weight: 700;
+  letter-spacing: 1px
+}
+
+#tabs {
+  margin-top: 36px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #eee
+}
+
+#tabs .nav-pills .active, #tabs .nav-pills li {
+  border-bottom: 2px solid #c2c2c2;
+  border-top: none;
+  border-left: none;
+  border-right: none
+}
+
+#tabs .nav-pills li .one-tab {
+  border: 0;
+  color: #c2c2c2
+}
+
+#tabs .nav-pills .active {
+  border-bottom: 2px solid #2399a6
+}
+
+#tabs .nav-pills .active .one-tab {
+  border: 0;
+  color: #00767a
+}
+
+#tabs .dropdown-toggle {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 0;
+  font-size: 16px;
+  color: #00767a;
+  display: flex;
+  justify-content: space-between
+}
+
+#tabs .dropdown-toggle img {
+  padding-top: 8px
+}
+
+#about-me {
+  padding-top: 30px
+}
+
+#about-me .about-me-bio {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2
+}
+
+#about-me .about-me-sidebar {
+  padding-right: 0
+}
+
+#XTenlogo {
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1
+}
+
+#top-nav-wrapper {
+  min-height: 70px;
+  padding-top: 5px;
+  overflow: auto
+}
+
+#about-me .about-me-sidebar h1 {
+  line-height: 2;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 5px
+}
+
+#about-me .about-me-sidebar p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif
+}
+
+#about-me .about-me-sidebar .designations {
+  margin-top: 30px
+}
+
+#footer {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #009caa;
+  color: #fff;
+  font-family: "Lato", sans-serif
+}
+
+#footer .row {
+  padding-top: 24px;
+  padding-bottom: 24px
+}
+
+.dropdown-toggle::after {
+  display: none
+}
+
+.footer-left {
+  font-size: 16px
+}
+
+.footer-left .company-phone {
+  letter-spacing: 1px
+}
+
+.footer-left .company-phone img {
+  padding-right: 4px
+}
+
+.footer-left .company-address {
+  margin-top: 10px;
+  letter-spacing: 1px
+}
+
+.footer-left .social-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between
+}
+
+.footer-right .footer-links {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between
+}
+
+.footer-right .footer-links .foot-link {
+  flex-grow: 1;
+  letter-spacing: 1px;
+  text-align: right
+}
+
+.footer-right .footer-links .foot-link a, .link-list .searchbar-link a {
+  color: #fff;
+  text-decoration: underline
+}
+
+.footer-right .footer-copyright {
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 1px;
+  margin-top: 15px
+}
+
+.footer-right .footer-main-logos {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px
+}
+
+.footer-right .footer-main-logos .equal-house {
+  padding-left: 20px
+}
+
+@media (max-width:337px) {
+  .searchbar-input-xs .form-control {
+    font-size: 14px
+  }
+}
+
+@media (min-width:992px) {
+  .navbar-brand picture img {
+    height: 80px
+  }
+  .nav-contact-account {
+    padding-right: 30px
+  }
+  #XTenlogo picture img {
+    height: 80px
+  }
+}
+
+@media (min-width:768px) {
+  #agent-profile .row #agent-links {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  #agent-profile .row #agent-info {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  #agent-profile .row {
+    display: flex;
+    flex-direction: row
+  }
+  #quick-search .row {
+    display: flex;
+    flex-direction: row
+  }
+  #quick-search .row .searchbar-link-group {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .footer-left .social-icons {
+    width: 220px
+  }
+}
+
+@media (max-width:768px) {
+  #about-me .about-me-sidebar {
+    margin-top: 30px
+  }
+  #about-me .about-me-bio {
+    font-size: 14px
+  }
+  #agent-links {
+    margin-top: 25px
+  }
+  .agent-info-wrapper .btn {
+    margin-top: 20px
+  }
+  .agent-info-wrapper h4 {
+    margin-top: 10px
+  }
+  .agent-info-wrapper h1 {
+    margin-top: 10px
+  }
+  .footer-right .footer-copyright {
+    margin-top: 20px;
+    text-align: center
+  }
+  .footer-right .footer-main-logos {
+    margin-top: 20px;
+    justify-content: center
+  }
+  .footer-right .footer-links .foot-link {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px
+  }
+  .footer-left {
+    text-align: center
+  }
+}
+
+@media (max-width:991px) {
+  #specialNav {
+    float: right
+  }
+  .nav-contact-account {
+    float: left
+  }
+  .navbar-header, .navbar-nav>li {
+    float: none
+  }
+  .navbar-toggle {
+    display: block
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px
+  }
+  .navbar-nav {
+    margin-top: 7.5px
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px
+  }
+}
